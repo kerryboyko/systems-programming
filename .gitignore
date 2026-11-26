@@ -1,0 +1,29 @@
+# Compiled C/C++ artifacts
+*.o
+*.a
+*.so
+*.so.*
+*.out
+
+# Build directories
+build/
+bin/
+dist/
+
+# Rust
+target/
+
+# Debugging artifacts
+core
+core.*
+vgcore.*
+*.log
+
+# Editor configuration
+.vscode/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
